@@ -51,5 +51,5 @@ Or by npm command:
 ```
 npm start
 ```
-6 - After rendering the project th will be ready on localhost on port 4200, So you can go to browser and go to that link: http://localhost:4200
+6 - After rendering the project th will be ready on localhost on port 4200, So you can go to browser and go to that link: http://localhost:4200 <br>
 7 - Now the project is ready ! 😊
