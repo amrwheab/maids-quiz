@@ -12,22 +12,22 @@ Emphasize proper styling, animations, and caching techniques.
 ### What the project consist of?
 
 the project consist of 
-1 - users page with header that includes search bar and the page it self includes some cardes of users that is paginated by paginator on the end of the page .
-2 - user page that contains details of the user and to access it you should click on card on users page or by searching by ID on header of page .
+1 - users page with header that includes search bar and the page it self includes some cardes of users that is paginated by paginator on the end of the page . <br>
+2 - user page that contains details of the user and to access it you should click on card on users page or by searching by ID on header of page . <br>
 
 ### What I used for project?
-1 - primeng for UI library.
-2 - primeicons.
-3 - bootstrap grid system.
-4 - ngrx for state managment of users.
+1 - primeng for UI library. <br>
+2 - primeicons. <br>
+3 - bootstrap grid system. <br>
+4 - ngrx for state managment of users. <br>
 
 ### What angular features that I used?
-1 - Angular routing.
-2 - Angular service.
-3 - Angular interceptor.
-4 - Angular shared module.
-5 - Angular custom directives.
-6 - Angular animations.
+1 - Angular routing. <br>
+2 - Angular service. <br>
+3 - Angular interceptor. <br>
+4 - Angular shared module. <br>
+5 - Angular custom directives. <br>
+6 - Angular animations. <br>
 
 ### How to install project locally and see it on localhost?
 1 - open cmd in the prefered path on your disk.
@@ -47,7 +47,7 @@ npm i
 ```
 ng serve
 ```
-or by npm command: 
+Or by npm command: 
 ```
 npm start
 ```
