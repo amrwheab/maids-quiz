@@ -1,27 +1,55 @@
+
 # MaidsQuiz
+### What the project is ?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+Dynamic User Dashboard
 
-## Development server
+### What it's goal?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+creating an interactive user dashboard while employing advanced features like state management frameworks, directives, and observables.  
+Emphasize proper styling, animations, and caching techniques.
 
-## Code scaffolding
+### What the project consist of?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+the project consist of 
+1 - users page with header that includes search bar and the page it self includes some cardes of users that is paginated by paginator on the end of the page .
+2 - user page that contains details of the user and to access it you should click on card on users page or by searching by ID on header of page .
 
-## Build
+### What I used for project?
+1 - primeng for UI library.
+2 - primeicons.
+3 - bootstrap grid system.
+4 - ngrx for state managment of users.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### What angular features that I used?
+1 - Angular routing.
+2 - Angular service.
+3 - Angular interceptor.
+4 - Angular shared module.
+5 - Angular custom directives.
+6 - Angular animations.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### How to install project locally and see it on localhost?
+1 - open cmd in the prefered path on your disk.
+2 - run this GIT command :
+```
+git clone https://github.com/amrwheab/maids-quiz.git
+```
+3 - Change directory to project :
+```
+cd maids-quiz
+```
+4 - install npm nessessary packages :
+```
+npm i
+```
+5 - Serve the project to localhost by using this angular/cli command:
+```
+ng serve
+```
+or by npm command: 
+```
+npm start
+```
+6 - After rendering the project th will be ready on localhost on port 4200, So you can go to browser and go to that link: http://localhost:4200
+7 - Now the project is ready ! 😊
