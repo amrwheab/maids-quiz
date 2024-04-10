@@ -1,0 +1,12 @@
+.user-img {
+  width: 100%;
+}
+
+.text-gray {
+  color: var(--gray-500);
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}

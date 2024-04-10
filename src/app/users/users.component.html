@@ -1,0 +1,25 @@
+<div class="container">
+  <h3>Users</h3>
+
+  <div class="row" *ngIf="!loading">
+    <div *ngFor="let user of users" class="col-md-4 col-sm-6" @showCard appCardShow>
+      <a [routerLink]="['/user', user.id]" class="card-link m-1">
+        <p-card [header]="user.first_name +' '+ user.last_name">
+          <ng-template pTemplate="header">
+              <img alt="Card" [src]="user.avatar" />
+          </ng-template>
+          <p>
+              {{user.email}}
+          </p>
+      </p-card>
+      </a>
+    </div>
+    <p-paginator (onPageChange)="onPageChange($event)" [first]="1" [rows]="usersPerPage" [totalRecords]="totalUsers"></p-paginator>
+  </div>
+
+  <div *ngIf="loading" class="spinner-container">
+    <p-progressSpinner ariaLabel="loading"></p-progressSpinner>
+  </div>
+
+</div>
+

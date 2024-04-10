@@ -1,0 +1,16 @@
+:host::ng-deep .p-toolbar {
+  padding: 0;
+  background-color: var(--blue-400);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+}
+
+.search-input {
+  height: 40px;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #fff;
+}
