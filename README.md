@@ -11,7 +11,7 @@ Emphasize proper styling, animations, and caching techniques.
 
 ### What the project consist of?
 
-the project consist of 
+the project consist of : <br>
 1 - users page with header that includes search bar and the page it self includes some cardes of users that is paginated by paginator on the end of the page . <br>
 2 - user page that contains details of the user and to access it you should click on card on users page or by searching by ID on header of page . <br>
 
